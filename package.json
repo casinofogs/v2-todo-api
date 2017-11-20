@@ -1,0 +1,25 @@
+{
+  "name": "7.v2-todo-api",
+  "version": "1.0.0",
+  "description": "todo-api with mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/nodemon --exec './node_modules/mocha/bin/mocha --recursive'",
+    "nodemon": "NODE_ENV=prod ./node_modules/.bin/nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casinofogs/v2-todo-api.git"
+  },
+  "author": "pal",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.4"
+  }
+}
